@@ -24,8 +24,33 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
 * Sometimes, I get lost when Sir gives us complex examples because I let my brain think about it which just makes things harder to reason out.
 * I also learned the different Logical Equivalences.
 
+|                           Equivalence                          |         Name        |
+|:--------------------------------------------------------------:|:-------------------:|
+|                      p ∧ T ≡ p  //     p v F ≡ p               |    Identity laws    |
+|                       p v T ≡ T  //    p ∧ F ≡ F               |   Domination laws   |
+|                       p v p ≡ p //     p ∧ p ≡ p               |   Idempotent laws   |
+|                            ¬(¬p) ≡ p                           | Double negation law |
+|                   p v q ≡ q v p // p ∧ q ≡ q ∧ p               |   Commutative laws  |
+|       (p v q) v r ≡ p v (q v r) // (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |   Associative laws  |
+| p v (q ∧ r) ≡ (p v q) ∧ (p v r) //  p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |  Distributive laws  |
+|              ¬(p ∧ q) ≡ ¬p v ¬q // ¬(p v q) ≡ ¬p ∧ ¬q          |   De Morgan's laws  |
+|                 p v (p ∧ q) ≡ p // p ∧ (p v q) ≡ p             |   Absorption laws   |
+|                     p v ¬p ≡ T // p ∧ ¬p ≡ F                   |    Negation laws    |
+
 #WEEK 3
 * We were taught about Predicate Logic, and Quantifiers.
 * Universal Quantifiers = "For All"
 * Existential Quantifiers = "There Exists"
+
+
+|         Name         |   Rule of Inference  |            Tautology           |
+|:--------------------:|:--------------------:|:------------------------------:|
+|    Modus Ponens      |      p, p→q ∴q       |        (p ∧ (p → q)) → q       |
+|      Modus Tollens   |     ¬q, p→q ∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |
+|Hypothetical Syllogism|     p→q, q→r ∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) |
+|Disjunctive Syllogism |      p∨q, ¬p ∴q      |       ((p ∨ q) ∧ ¬p) → q       |
+|      Addition        |       p ∴p ∨ q       |           p → (p ∨ q)          |
+|      Simplication    |       p ∧ q ∴p       |           (p ∧ q) → p          |
+|       Conjunction    |      p, q ∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |
+|      Resolution      | p ∨ q, ¬p ∨ r ∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |
 
