@@ -7,6 +7,14 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
 * When Sir Cabatuan introduced DISMATH, I thought it was going to be like 3rd year Geometry with the conditional statements and 4th year Physics with the logic gates.
 * He also introduced us to words like Propositions, Logical Deduction, Axioms.
 * Sir Cabatuan also said that in DISMATH, emotions should not get in the way of logic.
+| Logical Symbol  |  Logical Operator | Shorthand | Formula | Logical Expression |
+| :-----: |:-------:|:-----:| :-------: | :-------: |
+| ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
+| ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) | p ∧ q |
+| v | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
+| ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
+| → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
+| ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
 
 #WEEK 2
 * I was re-enlightened with the topic about Logical Connectives/Logical Operators.
