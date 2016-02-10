@@ -7,6 +7,7 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
 * When Sir Cabatuan introduced DISMATH, I thought it was going to be like 3rd year Geometry with the conditional statements and 4th year Physics with the logic gates.
 * He also introduced us to words like Propositions, Logical Deduction, Axioms.
 * Sir Cabatuan also said that in DISMATH, emotions should not get in the way of logic.
+
 | Logical Symbol  |  Logical Operator | Shorthand | Formula | Logical Expression |
 | :-----: |:-------:|:-----:| :-------: | :-------: |
 | ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
