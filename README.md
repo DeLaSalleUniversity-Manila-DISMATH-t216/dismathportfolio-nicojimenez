@@ -41,6 +41,12 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
 * We were taught about Predicate Logic, and Quantifiers.
 * Universal Quantifiers = "For All"
 * Existential Quantifiers = "There Exists"
+* I also learned more about the Biconditional statement.
+* The Biconditional is A ↔ B ≡ (A → B) ∧ (B → A)
+* One is that "if", "only if", and "if and only if" are different.
+* "A if B" = B → A
+* "A only if B" = A → B
+* "A if and only if B" = A ↔ B
 
 
 |         Name         |   Rule of Inference  |            Tautology           |
@@ -54,3 +60,40 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
 |       Conjunction    |      p, q ∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |
 |      Resolution      | p ∨ q, ¬p ∨ r ∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |
 
+#WEEK 4
+* This week I have learned about the Different Methods of Proof
+* I. **Direct Proof**.
+* Steps:
+  *   1. Assume *p* is T.
+  *   2. Show that *q* is also T.
+* II. **Proof by Contraposition**.
+* Steps:
+  *   1. Assume *¬q* is T
+  *   2. Show that *¬p* is also T.
+* III. **Vacuous Proof**.
+* Which is basically ¬p → (p→q)
+* Steps:
+  *   1. Show that *¬p* is T **OR** *p* is F.
+  *   2. *p→q* is T when *¬p* is **OR** *p* is F.
+* IV. **Trivial Proof**
+* Basically, q → (p→q)
+* Steps:
+  *   1. Show that *q* is T.
+  *   2. p→q is therefore T when *q* is T
+* V. **Proof by Contradiction**
+* Prove that the premises will end up FALSE or in Contradiction
+* Steps:
+  *   1. Assume **ALL PREMISES** to be FALSE.
+  *   2. Show that these premises will end up in a Contradiction.
+
+#WEEK 5
+* This week I have learned about **Proof by Equivalence**.
+* VI. **Proof by Equivalence**
+* This is usually used for proving Biconditional Statements.
+* Steps:
+  *   1. Show that (p→q) is T.
+  *   2. Show that (q→p) is also T.
+* I also learned about Mathematical Induction
+* Steps for Mathematical Induction:
+  *   1. SUBSTITUTION.
+  *   2. DIRECT PROOF.
