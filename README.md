@@ -97,3 +97,16 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
 * Steps for Mathematical Induction:
   *   1. SUBSTITUTION.
   *   2. DIRECT PROOF.
+
+#WEEK 6
+* PROGRAM CORRECTNESS
+  * Hoare Triple
+  * p{S}q - A program, S, is said to be partially correct with respect to the initial assertion p and the final assertion q if whenever p is true for the input values of S and S terminates, then q is true for the output values of S.
+
+#WEEK 7
+* INTRODUCTION TO SET THEORY
+  * Empty Set
+  * ↳ { } = ∅
+  * Set Builder Notation
+  * {x | some property x satisfies}
+
