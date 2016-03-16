@@ -109,4 +109,17 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
   * ↳ { } = ∅
   * Set Builder Notation
   * {x | some property x satisfies}
+* VENN DIAGRAMS
+  * UNION 
+   * A ⋃ B ≡ (x ∈ A) ∧ (x ∈ B) 
+  * INTERSECTION
+   * A ⋂ B ≡ (x ∈ A) ∨ (x ∈ B) 
+  * DIFFERENCE
+   * A - B
+  * DIFFERENCE
+   * A \ B ≡ (x ∈ A) ∧ (x ∉ B)
+  * SYMMETRIC DIFFERENCE
+   * A ∆ B ≡ {x | (x ∈ A) ∧ (x ∉ B) ∨ (x ∈ B) ∧ (x ∉ A)}
+
+
 
