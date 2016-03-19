@@ -121,5 +121,47 @@ dismathportfolio-nicojimenez created by Classroom for GitHub
   * SYMMETRIC DIFFERENCE
    * A ∆ B ≡ {x | (x ∈ A) ∧ (x ∉ B) ∨ (x ∈ B) ∧ (x ∉ A)}
 
+### Week 8:
 
+* **ALGORITHMS**
+    - A finite set of precise instructions for performing a computation or for solving a problem.
+    - **Properties of Algorithms**: </br>
+        ⇾ _Input_ - has input values from a specified set </br>
+        ⇾ _Output_ - solution to the problem </br>
+        ⇾ _Definiteness_ - defined precisely </br>
+        ⇾ _Correctness_ - produce the correct output values </br>
+        ⇾ _Finiteness_ - produce the desired output </br>
+        ⇾ _Effectiveness_ - perform exactly and in a finite amount of time </br>
+        ⇾ _Generality_ - applicable for all problems of the desired form
+* **PSEUDOCODE**
+    - high - level desciption of an algorithm that uses the structural conventions of a programming language 
+    - intended for human reading
+    - **Preconditions** - describe valid input
+    - **Postconditions** - conditions that the output should satisfy
+___
+
+### Week 9:
+
+- For this week, we discussed the types of algorithm procedures that we can use when writing a pseudocode
+
+* **SEARCHING ALGORITHMS** </br>
+    ↳ Problem of locating an algorithm in an ordered list
+    - **Binary Search** - comparing the middle values of a list then repeated until the desired output is found.
+
+* **SORTING ALGORITHMS** </br>
+    ↳ Problem of assorting elements into increasing order
+
+* **GREEDY ALGORITHMS** </br>
+    ↳ Algorithms that make what seems to be the "best" choice at each step.
+
+- We also started on the **Growth of Functions** (Big-O Notation)
+___
+
+### Week 10:
+
+
+* **Big-O Notation**
+* **Big-Omega and Big-Theta Notation**
+        ↳ **Big-Omega** (Big-Ω) - lower bound </br>
+        ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
 
