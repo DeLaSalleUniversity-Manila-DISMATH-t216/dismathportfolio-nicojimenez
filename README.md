@@ -161,7 +161,7 @@ ___
 
 
 * **Big-O Notation**
-* **Big-Omega and Big-Theta Notation**
+* **Big-Omega and Big-Theta Notation**</br>
         ↳ **Big-Omega** (Big-Ω) - lower bound </br>
         ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
 
