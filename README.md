@@ -165,3 +165,36 @@ ___
         ↳ **Big-Omega** (Big-Ω) - lower bound </br>
         ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
 
+### Week 12:
+- GRAPH THEORY
+  "connecting dots"
+  V = vertices, nodes, entities, people
+  E = edges, connections, route, relationships
+  G = {V, E}
+- BASICS:
+  Degree - number of edges incident with vertices
+- HANDSHAKING THEOREM = 2e = ∑deg(v)
+- EULER CIRCUIT - passes through every edge and goes back to the starting point.
+- EULER PATH - passes through every edge without the need to go back to the starting point.
+- HAMILTON CIRCUIT - passes through each vertex and goes back to the starting point.
+- HAMILTON PATH - passes through each vertex without the need to go back to the starting point.
+- PLANAR GRAPH - no edges cross/overlap each other
+  Euler's formula: r = e - v + 2
+   where:
+    r = regions
+    e = edges
+    v = vertices
+
+### Week 13:
+- GRAPH COLORING
+  assign color to each vertex where no two vertices have the same color.
+  Chromatic number - least number of colors needed to color the graph.
+  Four Color Theorem - a planar graph's chromatic number will not be greater than four.
+- TREES
+  representation of data structures
+  Forest - multiple trees (NO JOKE)
+- TREE COMPONENTS
+  Leaves - nodes that do not have children
+  Children/Grandchildren - descendants
+  Ancestors - nodes on top
+- M-ary TREE - each vertex of an m-ary tree has m number of descendants.
